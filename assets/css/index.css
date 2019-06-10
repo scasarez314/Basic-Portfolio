@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box
+}
+.bio-image { 
+    width: 20%
+
+}
+#paragraph {
+    background-color: white;
+}
+#header {
+    float: right;
+}
+#full {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    float: right;
+    background-color: rgb(240, 240, 230);
+    border-radius: 25px;
+    border: 2px solid white;
+}
+#navbar {
+    text-align: center;
+    width: 100%;
+    float: right;
+    background-color: thistle;
+    margin: 0px;
+    border-radius: 25px;
+    border: 2px solid rgb(214, 112, 214);
+}
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+li {
+    float: left;
+    margin-left: 0 35px;
+    padding: 5px;
+    
+
+}
+body {
+    background-color: grey;
+    color: black;
+    width: 80%;
+    margin: 0% auto;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(240, 240, 230);
+    color: black;
+    text-align: left;
+    float: right;
+    margin: 0;
+    width: 80px;
+
+}
+#clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
